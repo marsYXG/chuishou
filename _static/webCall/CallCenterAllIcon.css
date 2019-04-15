@@ -1,0 +1,75 @@
+.CallCenter_button {
+    float: left;
+    cursor: pointer;
+}
+
+.CallCenter_icon {
+    height: 35px;
+    width: 60px;
+    text-align: center;
+}
+
+.CallCenter_text {
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+}
+
+#CallCenter_jianpan {
+    position: absolute;
+    top: 60px;
+    margin-left: -5px;
+    z-index: 5000;
+    background-color: rgba(36, 41, 48, 0.1);
+    width: 106px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    cursor: default;
+}
+
+#CallCenter_login_group_pannel {
+    width: 276px;
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 0 10px 10px 0;
+}
+
+#CallCenter_login_group_pannel div {
+    width: 80px;
+    margin-left: 10px;
+    border: 1px solid #CCC;
+    color: #376193;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#CallCenter_busy, #CallCenter_calloutbut, #CallCenter_innercall {
+    position: relative;
+}
+
+#CallCenter_busyList {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 55px;
+    display: none;
+}
+
+.CallCenter_busyList_li {
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    background: #FFF;
+}
+#CallCenter_main .enternum{
+    left:-73px;
+    top:60px;
+}

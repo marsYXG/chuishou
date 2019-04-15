@@ -1,0 +1,221 @@
+
+#CallCenter_main img {
+    border: none;
+
+}
+
+#CallCenter_main .agent {
+    float: left;
+    height: 34px;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+#CallCenter_main .agent .softphone {
+    width: 160px;
+    padding: 5px 0;
+    background: #FFF;
+    border: #a2a2a2 solid 1px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    position: absolute;
+    left: -3px;
+    top: 34px;
+    z-index: 1000;
+}
+
+#CallCenter_main .agent .softphone li {
+    line-height: 26px;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+#CallCenter_calloutbut {
+    cursor: pointer;
+}
+
+#CallCenter_main .softphone span {
+    display: block;
+    cursor: pointer;
+    float: left;
+    padding-left: 20px;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #B30000;
+}
+
+#CallCenter_main .softphone span:hover {
+    background-color: #0081c2;
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+    background-repeat: repeat-x;
+}
+
+#CallCenter_main .telbtn {
+    float: left;
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#CallCenter_main .agent .green {
+    background: #84bc25;
+}
+
+#CallCenter_main .agent .green:hover {
+    background: #9cd836;
+}
+
+#CallCenter_main .agent .red {
+    background: #e4433b;
+}
+
+#CallCenter_main .agent .red:hover {
+    background: #f67872;
+}
+
+#CallCenter_main .agent .org {
+    background: #ea9738;
+}
+
+#CallCenter_main .agent .org:hover {
+    background: #f5ae5b;
+}
+
+#CallCenter_main .con {
+    float: left;
+    padding-left: 22px;
+}
+
+#CallCenter_main .con .time, #CallCenter_main .con .line, #CallCenter_main .con .status {
+    float: right;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#CallCenter_main .con .time {
+    padding-right: 10px;
+}
+
+#CallCenter_main .con .line {
+    width: 0;
+    border-left: #FFF solid 1px;
+    height: 16px;
+    margin: 8px 10px 0 12px;
+}
+
+#CallCenter_main .con .status {
+    padding-left: 8px;
+}
+
+#CallCenter_main .con .num {
+    float: right;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#CallCenter_main .trig {
+    float: right;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    margin-top: 15px;
+    display: none;
+}
+
+#CallCenter_main .telbtns {
+    float: left;
+}
+
+#CallCenter_main span {
+    cursor: pointer;
+}
+
+#CallCenter_main .telbtns span {
+    float: left;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height: 34px;
+    width: 33px;
+}
+
+#CallCenter_main .telbtns .dialog, #CallCenter_status_tiao .dialog {
+    position: absolute;
+    line-height: 32px;
+    font-size: 12px;
+    color: #FFF;
+    background: #343434;
+    font-family: 'Microsoft YaHei';
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    top: 40px;
+    left: -6px;
+    display: none;
+    width: 40px;
+    text-align: center;
+    z-index: 1011;
+}
+
+#CallCenter_main .telbtns .pointer, #CallCenter_status_tiao .pointer {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-width: 6px;
+    border-color: transparent transparent #343434 transparent;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -12px;
+}
+
+#CallCenter_status_tiao .dialog {
+    width: 250px;
+    left: 160px;
+}
+
+#CallCenter_main .over_consult .dialog, #CallCenter_main .zxzj .dialog {
+    width: 64px;
+    left: -20px;
+}
+
+#CallCenter_main .ivr .dialog {
+    width: 72px;
+    left: -22px;
+}
+
+#CallCenter_main .degree .dialog {
+    width: 88px;
+    left: -30px;
+}
+
+#CallCenter_main .sf .dialog {
+    width: 76px;
+    left: -23px;
+}
+
+#CallCenter_main .softphone {
+    margin: 0;
+    padding: 0;
+}
+
+#CallCenter_main:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
